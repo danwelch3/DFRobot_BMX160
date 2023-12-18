@@ -1038,6 +1038,8 @@ class DFRobot_BMX160{
      * @brief enabled the the magn, gyro sensor
      */
     void wakeUp();
+
+    void setAddr(uint8_t addr);
     
   private:
 

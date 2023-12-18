@@ -265,3 +265,7 @@ bool DFRobot_BMX160::scan()
     }
     return false;
 }
+
+void DFRobot_BMX160::setAddr(uint8_t addr) {
+    _addr = addr;
+}
